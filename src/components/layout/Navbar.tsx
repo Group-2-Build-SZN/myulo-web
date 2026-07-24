@@ -21,9 +21,6 @@ export function Navbar() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="My Ulo" className="h-9 w-9" />
-          <span className="text-h4 font-bold text-neutral">
-            My <span className="text-primary">Ulo</span>
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
