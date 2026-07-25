@@ -8,9 +8,9 @@ const navLinks = [
   { label: "Home", to: "/" },
   { label: "How It Works", to: "/#how-it-works" },
   { label: "Properties", to: "/#properties" },
-  { label: "Map", to: "/#map" },
-  { label: "About Us", to: "/#about" },
-  { label: "Contact Us", to: "/#contact" },
+  { label: "Map", to: "/map" },
+  { label: "About Us", to: "/about" },
+  { label: "Contact Us", to: "/contact" },
 ];
 
 export function Navbar() {

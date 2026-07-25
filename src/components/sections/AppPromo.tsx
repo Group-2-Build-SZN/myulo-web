@@ -1,15 +1,24 @@
+import { GooglePlayIcon, AppleIcon } from "../ui/StoreIcons";
 import promoImage from "../../assets/images/ChatGPT Image Jul 14, 2026, 03_48_04 PM 1.png";
+import phoneImage from "../../assets/images/ChatGPT Image Jul 15, 2026, 08_57_45 PM 1.png";
 
 export function AppPromo() {
   return (
     <section className="bg-neutral-100 py-16">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
-          <img
-            src={promoImage}
-            alt="My Ulo app on a smartphone"
-            className="w-full rounded-2xl object-cover"
-          />
+          <div className="relative">
+            <img
+              src={promoImage}
+              alt="My Ulo app on a smartphone"
+              className="w-full rounded-2xl object-cover"
+            />
+            <img
+              src={phoneImage}
+              alt="Hand holding a phone with the My Ulo app open"
+              className="absolute -right-6 bottom-0 h-[85%] w-auto drop-shadow-xl sm:-right-10"
+            />
+          </div>
 
           <div>
             <h2 className="text-h2 font-bold text-neutral">
@@ -25,7 +34,7 @@ export function AppPromo() {
                 href="#"
                 className="flex items-center gap-3 rounded-xl bg-neutral px-5 py-3 text-white"
               >
-                <span className="text-h4">▶</span>
+                <GooglePlayIcon size={22} />
                 <span className="text-left">
                   <span className="block text-caption text-neutral-300">
                     Get it on
@@ -39,7 +48,7 @@ export function AppPromo() {
                 href="#"
                 className="flex items-center gap-3 rounded-xl bg-neutral px-5 py-3 text-white"
               >
-                <span className="text-h4"></span>
+                <AppleIcon size={22} />
                 <span className="text-left">
                   <span className="block text-caption text-neutral-300">
                     Download on the

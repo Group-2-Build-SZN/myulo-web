@@ -54,7 +54,7 @@ export function Hero() {
             className="w-full rounded-2xl object-cover shadow-lg"
           />
 
-          <div className="absolute -left-4 -top-4 flex items-center gap-2 rounded-xl bg-white px-3 py-2 shadow-md sm:-left-6 sm:-top-5">
+          <div className="absolute left-[4%] top-[13%] flex items-center gap-2 rounded-xl bg-white px-3 py-2 shadow-md">
             <span className="flex h-6 w-6 items-center justify-center rounded-full bg-secondary-50 text-secondary">
               <ShieldCheck size={14} />
             </span>
@@ -66,14 +66,14 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="absolute -bottom-6 left-4 right-24 rounded-xl bg-white px-4 py-3 shadow-md sm:-bottom-8 sm:-left-6">
+          <div className="absolute bottom-[14%] left-0 w-[38%] min-w-[240px] rounded-xl bg-white px-4 py-3 shadow-md">
             <p className="text-small font-semibold text-neutral">
               Lekki, Phase 1, Lagos
             </p>
             <p className="text-caption text-accent-600">★★★★★ 4.8 (120 reviews)</p>
           </div>
 
-          <div className="absolute -bottom-4 -right-4 flex items-center gap-2 rounded-xl bg-white px-3 py-2 shadow-md sm:-bottom-5 sm:-right-6">
+          <div className="absolute bottom-[5%] right-[4%] flex items-center gap-2 rounded-xl bg-white px-3 py-2 shadow-md">
             <span className="flex h-6 w-6 items-center justify-center rounded-full bg-secondary-50 text-secondary">
               <ShieldCheck size={14} />
             </span>

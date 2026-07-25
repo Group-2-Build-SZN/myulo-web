@@ -6,7 +6,7 @@ import {
   InstagramIcon,
   LinkedinIcon,
 } from "../ui/SocialIcons";
-import logo from "../../assets/images/logo-icon.svg";
+import logo from "../../assets/images/Group 124.svg";
 
 const quickLinks = [
   { label: "Home", to: "/" },
@@ -16,8 +16,8 @@ const quickLinks = [
 ];
 
 const companyLinks = [
-  { label: "About Us", to: "/#about" },
-  { label: "Contact Us", to: "/#contact" },
+  { label: "About Us", to: "/about" },
+  { label: "Contact Us", to: "/contact" },
   { label: "Help Center", to: "/#help" },
   { label: "Blog", to: "/#blog" },
 ];
@@ -69,7 +69,6 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2">
               <img src={logo} alt="My Ulo" className="h-9 w-9" />
-              <span className="text-h4 font-bold text-white">My Ulo</span>
             </Link>
             <p className="mt-4 text-small text-primary-100">
               Building a transparent and trustworthy rental ecosystem for
@@ -116,7 +115,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-primary-700 pt-6 text-center text-small text-primary-100">
+        <div className="mt-12 border-t border-primary-700 pt-6 text-small text-primary-100">
           © {new Date().getFullYear()} My Ulo. All rights reserved.
         </div>
       </div>

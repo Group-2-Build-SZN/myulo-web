@@ -1,5 +1,6 @@
 import { Quote, Star } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { cn } from "../../lib/utils";
 
 const testimonials = [
@@ -75,6 +76,15 @@ export function Testimonials() {
               )}
             />
           ))}
+        </div>
+
+        <div className="mt-6 text-center">
+          <Link
+            to="/#reviews"
+            className="text-body font-medium text-primary hover:underline"
+          >
+            See All
+          </Link>
         </div>
       </div>
     </section>
