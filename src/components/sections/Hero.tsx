@@ -1,4 +1,5 @@
 import { Search, FileText, ShieldCheck, CircleCheckBig } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "../ui/Button";
 import heroImage from "../../assets/images/Rectangle 3 (2).png";
 
@@ -29,9 +30,11 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button size="lg" icon={<Search size={18} />}>
-              Find a Home
-            </Button>
+            <Link to="/search" className="w-full sm:w-auto">
+              <Button size="lg" icon={<Search size={18} />} fullWidth>
+                Find a Home
+              </Button>
+            </Link>
             <Button size="lg" variant="secondary" icon={<FileText size={18} />}>
               List of Property
             </Button>

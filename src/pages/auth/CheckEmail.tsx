@@ -115,6 +115,13 @@ export function CheckEmail({ mode }: CheckEmailProps) {
         >
           ← Back
         </Link>
+
+        <Link
+          to="/dashboard"
+          className="mt-6 rounded-lg border border-dashed border-neutral-300 px-4 py-2 text-small text-neutral-500 hover:border-primary hover:text-primary"
+        >
+          [Dev only] Skip to Dashboard →
+        </Link>
       </div>
     </AuthLayout>
   );

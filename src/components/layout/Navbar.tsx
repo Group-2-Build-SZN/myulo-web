@@ -7,7 +7,7 @@ import logo from "../../assets/images/logo-icon.svg";
 const navLinks = [
   { label: "Home", to: "/" },
   { label: "How It Works", to: "/#how-it-works" },
-  { label: "Properties", to: "/#properties" },
+  { label: "Properties", to: "/search" },
   { label: "Map", to: "/map" },
   { label: "About Us", to: "/about" },
   { label: "Contact Us", to: "/contact" },

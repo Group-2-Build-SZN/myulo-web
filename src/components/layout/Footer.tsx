@@ -10,7 +10,7 @@ import logo from "../../assets/images/Group 124.svg";
 
 const quickLinks = [
   { label: "Home", to: "/" },
-  { label: "Search Properties", to: "/#properties" },
+  { label: "Search Properties", to: "/search" },
   { label: "How It Works", to: "/#how-it-works" },
   { label: "List Property", to: "/#list-property" },
 ];

@@ -8,29 +8,28 @@ import {
   ShieldHalf,
   Lightbulb,
   Users,
-  Heart,
 } from "lucide-react";
 import { Navbar } from "../components/layout/Navbar";
 import { Footer } from "../components/layout/Footer";
 import heroImage from "../assets/images/Rectangle 3 (2).png";
 import storyImage from "../assets/images/Frame 427318561.png";
 
-import t1 from "../assets/images/Rectangle 36.png";
-import t2 from "../assets/images/Rectangle 37.png";
-import t3 from "../assets/images/Rectangle 38.png";
-import t4 from "../assets/images/Rectangle 39.png";
-import t5 from "../assets/images/Rectangle 40.png";
-import t6 from "../assets/images/Rectangle 41.png";
-import t7 from "../assets/images/Rectangle 42.png";
-import t8 from "../assets/images/Rectangle 43.png";
-import t9 from "../assets/images/Rectangle 44.png";
-import t10 from "../assets/images/Rectangle 45.png";
-import t11 from "../assets/images/Rectangle 46.png";
-import t12 from "../assets/images/Rectangle 47.png";
-import t13 from "../assets/images/Rectangle 48.png";
-import t14 from "../assets/images/Rectangle 49.png";
-import t15 from "../assets/images/Rectangle 50.png";
-import t16 from "../assets/images/Rectangle 50 (1).png";
+import chisomOkoh from "../assets/images/Chisom Okoh.png";
+import chinazorEchezona from "../assets/images/Chinazor Echezona.png";
+import makuachukwuIloabachie from "../assets/images/Makuachukwu Iloabachie.png";
+import soromtochukwuUgwu from "../assets/images/Soromtochukwu Ugwu.png";
+import eseOmamuyowi from "../assets/images/Ese Omamuyowi.png";
+import okoyeGloria from "../assets/images/Okoye Gloria.png";
+import victorEzeilo from "../assets/images/Victor Ezeilo.png";
+import laurynOkofu from "../assets/images/Lauryn Okofu.png";
+import jessicaUkwuegbu from "../assets/images/Jessica Ukwuegbu.png";
+import chibuikemJonNwakalo from "../assets/images/Chibuikem JonNwakalo.png";
+import patriciaOko from "../assets/images/Patricia Oko.png";
+import oluchukwuAnakor from "../assets/images/Oluchukwu Anakor.png";
+import onuVivian from "../assets/images/Onu Vivian.png";
+import odohPraise from "../assets/images/Odoh praise.png";
+import maximusUdeh from "../assets/images/Maximus Udeh.png";
+import amarachiObinze from "../assets/images/Amarachi Obinze.png";
 
 const features = [
   { icon: ShieldCheck, title: "Verified Listings", description: "Every property is authenticated" },
@@ -40,29 +39,29 @@ const features = [
 ];
 
 const values = [
-  { icon: ShieldHalf, title: "Trust", description: "We believe in transparency and honesty in everything we do." },
-  { icon: Lightbulb, title: "Innovation", description: "We use technology to create simple and smart solutions." },
-  { icon: Users, title: "Customer Focus", description: "Our users are at the heart of every decision we make." },
-  { icon: Heart, title: "Community", description: "We are committed to building better communities." },
+  { icon: ShieldHalf, title: "Trust", description: "We believe in transparency and honesty in everything we do.", bg: "bg-primary-100", color: "text-primary" },
+  { icon: Lightbulb, title: "Innovation", description: "We use technology to create simple and smart solutions.", bg: "bg-[#EEF2FF]", color: "text-[#6366F1]" },
+  { icon: Target, title: "Customer Focus", description: "Our users are at the heart of every decision we make.", bg: "bg-accent-50", color: "text-accent-600" },
+  { icon: Users, title: "Community", description: "We are committed to building better communities.", bg: "bg-secondary-50", color: "text-secondary" },
 ];
 
 const team = [
-  { photo: t1, name: "Chisom Okoh", role: "Lead Product Manager" },
-  { photo: t2, name: "Chinazor Echezona", role: "Lead Product Designer" },
-  { photo: t3, name: "Makuachukwu Iloabachie", role: "Lead Frontend Dev." },
-  { photo: t4, name: "Soromtochukwu Ugwu", role: "Lead Backend Dev." },
-  { photo: t5, name: "Ese Omamuyowi", role: "Digital Marketing Lead" },
-  { photo: t6, name: "Okoye Gloria", role: "Quality Assurance Lead" },
-  { photo: t7, name: "Victor Ezeilo", role: "Lead Data Analyst" },
-  { photo: t8, name: "Lauryn Okofu", role: "Product Designer" },
-  { photo: t9, name: "Jessica Ukwuegbu", role: "Product Designer" },
-  { photo: t10, name: "Chibuikem JonNwakalo", role: "Product Designer" },
-  { photo: t11, name: "Patricia Oko", role: "Product Manager" },
-  { photo: t12, name: "Oluchukwu Anakor", role: "Backend Dev." },
-  { photo: t13, name: "Onu Vivian", role: "Data Analyst" },
-  { photo: t14, name: "Odoh praise", role: "Frontend Dev." },
-  { photo: t15, name: "Maximus Udeh", role: "Frontend Dev." },
-  { photo: t16, name: "Amarachi Obinze", role: "Data Analyst" },
+  { photo: chisomOkoh, name: "Chisom Okoh", role: "Lead Product Manager" },
+  { photo: chinazorEchezona, name: "Chinazor Echezona", role: "Lead Product Designer" },
+  { photo: makuachukwuIloabachie, name: "Makuachukwu Iloabachie", role: "Lead Frontend Dev." },
+  { photo: soromtochukwuUgwu, name: "Soromtochukwu Ugwu", role: "Lead Backend Dev." },
+  { photo: eseOmamuyowi, name: "Ese Omamuyowi", role: "Digital Marketing Lead" },
+  { photo: okoyeGloria, name: "Okoye Gloria", role: "Quality Assurance Lead" },
+  { photo: victorEzeilo, name: "Victor Ezeilo", role: "Lead Data Analyst" },
+  { photo: laurynOkofu, name: "Lauryn Okofu", role: "Product Designer" },
+  { photo: jessicaUkwuegbu, name: "Jessica Ukwuegbu", role: "Product Designer" },
+  { photo: chibuikemJonNwakalo, name: "Chibuikem JonNwakalo", role: "Product Designer" },
+  { photo: patriciaOko, name: "Patricia Oko", role: "Product Manager" },
+  { photo: oluchukwuAnakor, name: "Oluchukwu Anakor", role: "Backend Dev." },
+  { photo: onuVivian, name: "Onu Vivian", role: "Data Analyst" },
+  { photo: odohPraise, name: "Odoh praise", role: "Frontend Dev." },
+  { photo: maximusUdeh, name: "Maximus Udeh", role: "Frontend Dev." },
+  { photo: amarachiObinze, name: "Amarachi Obinze", role: "Data Analyst" },
 ];
 
 export function AboutPage() {
@@ -156,9 +155,9 @@ export function AboutPage() {
             />
           </div>
 
-          <div className="mt-20 grid grid-cols-1 gap-6 lg:grid-cols-2">
-            <div className="rounded-2xl border border-neutral-200 p-6">
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-50 text-primary">
+          <div className="mt-20 grid grid-cols-1 divide-y divide-neutral-300 rounded-2xl bg-primary-50 lg:grid-cols-2 lg:divide-x lg:divide-y-0">
+            <div className="p-8">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-100 text-primary">
                 <Target size={20} />
               </span>
               <h3 className="mt-4 text-h4 font-semibold text-neutral">
@@ -172,8 +171,8 @@ export function AboutPage() {
                 and security.
               </p>
             </div>
-            <div className="rounded-2xl border border-neutral-200 p-6">
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-50 text-primary">
+            <div className="p-8">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-100 text-primary">
                 <Eye size={20} />
               </span>
               <h3 className="mt-4 text-h4 font-semibold text-neutral">
@@ -196,7 +195,9 @@ export function AboutPage() {
                   key={v.title}
                   className="rounded-2xl border border-neutral-200 p-6"
                 >
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-50 text-primary">
+                  <span
+                    className={`flex h-11 w-11 items-center justify-center rounded-xl ${v.bg} ${v.color}`}
+                  >
                     <v.icon size={20} />
                   </span>
                   <h3 className="mt-4 text-h4 font-semibold text-neutral">
